@@ -79,7 +79,7 @@
   max-width: 683px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
 }
@@ -100,7 +100,7 @@
   z-index: 2;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   font-size: 16px;
   line-height: 20px;
   color: #838383;
@@ -140,7 +140,7 @@
   margin: 0 0 80px;
   max-width: 438px;
   font-family: "Noto Serif", "Times New Roman", serif;
-  font-weight: 400;
+  font-weight: normal;
   font-style: normal;
   font-size: 20px;
   line-height: 30px;
