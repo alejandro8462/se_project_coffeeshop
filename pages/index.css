@@ -44,7 +44,6 @@
   padding: 0;
   margin: 0;
   font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -63,9 +62,7 @@
 .header__span-accent {
   display: block;
   font-family: "Noto Serif", "Times New Roman", serif;
-  font-weight: 400;
   font-style: italic;
-  font-weight: normal;
   font-size: 60px;
   line-height: 72px;
   color: #3f96f3;
@@ -78,8 +75,6 @@
   margin: 28px 0 0;
   max-width: 683px;
   font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
 }
@@ -98,17 +93,16 @@
   display: flex;
   justify-content: space-between;
   z-index: 2;
-  font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383;
 }
 
 .header__paragraph {
   display: flex;
   margin: 0;
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
 }
 
 .header__paragraph:last-of-type {
@@ -129,7 +123,6 @@
   margin: 0 0 24px;
   max-width: 580px;
   font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -140,8 +133,6 @@
   margin: 0 0 80px;
   max-width: 438px;
   font-family: "Noto Serif", "Times New Roman", serif;
-  font-weight: normal;
-  font-style: normal;
   font-size: 20px;
   line-height: 30px;
   color: #fff;
@@ -163,7 +154,6 @@
   display: flex;
   justify-content: space-between;
   font-family: "Inter", "Arial", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
