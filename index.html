@@ -105,7 +105,60 @@
             </li>
           </ul>
         </section>
-        <section id="reservations" class="reservations"></section>
+        <section id="reservations" class="reservations">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="name">Name *</label>
+              <input
+                class="form__input"
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name Surname"
+                required
+              />
+              <label class="form__label" for="guests">Number of guests *</label>
+              <input
+                class="form__input"
+                type="number"
+                min="1"
+                max="8"
+                name="guests"
+                id="guests"
+                placeholder="1-8"
+                required
+              />
+              <label class="form__label" for="date">Date & time *</label>
+              <input
+                type="datetime-local"
+                class="form__input"
+                name="date"
+                id="date"
+                required
+              />
+              <label class="form__label" for="username">Your email *</label>
+              <input
+                type="email"
+                class="form__input"
+                name="username"
+                id="username"
+                placeholder="email@email.com"
+                required
+              />
+            </fieldset>
+            <button class="form__button" type="submit">Book a table</button>
+            <label class="form__label form__label__type_checkbox" for="terms"
+              ><input
+                type="checkbox"
+                class="form__checkbox"
+                name="terms"
+                id="terms"
+                required
+              />I agree with the terms of use
+            </label>
+          </form>
+        </section>
         <section id="menu" class="menu"></section>
         <section id="about" class="about"></section>
       </main>
