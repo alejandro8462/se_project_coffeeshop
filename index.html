@@ -9,13 +9,12 @@
     />
     <meta name="author" content="Alex Gonzalez" />
     <meta name="keywords" content="coffee, software, TripleTen" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap"
       rel="stylesheet"
     />
     <title>Sprint 2 Coffee Shop</title>
@@ -148,11 +147,11 @@
                 required
               />
             </fieldset>
-            <button class="form__button">Book a table</button>
+            <button class="form__button" type="submit">Book a table</button>
             <label class="form__label form__label_type_checkbox" for="terms"
               ><input
                 type="checkbox"
-                class="form__input"
+                class="form__checkbox"
                 name="terms"
                 id="terms"
                 required
@@ -258,9 +257,13 @@
       </main>
       <footer class="footer">
         <div class="footer__content">
-          <img class="footer_logo" src="./images/logo_coffeeshop_light.svg" alt="Triple Espresso Logo Light" />
+          <img
+            class="footer__logo"
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Triple Espresso Logo Light"
+          />
           <div class="footer__column">
-            <h3 class="social__heading">Social Media</h3>
+            <h3 class="footer__social-heading">Social Media</h3>
             <ul class="footer__list">
               <li class="footer__list-item">
                 <a class="footer__social-link" href="#"
